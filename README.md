@@ -17,4 +17,8 @@ Playwright provides the ability to automate browser tasks in Chromium, Firefox a
 [https://playwright.dev/](https://playwright.dev/) - installation and documentation <br>
 [https://github.com/microsoft/playwright](https://github.com/microsoft/playwright) - github repository
 
+Navigate to your project folder and run the following command:
+```
+npm init playwright@latest
+```
   
