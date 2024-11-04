@@ -27,5 +27,5 @@ Choose true for Install Playwright browser.
 ## Run Test
 Navigate to the project root folder and enter the following command:
 ```
-npx .\playwright test --headed
+npx playwright test --headed
 ```
