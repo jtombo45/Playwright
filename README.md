@@ -21,4 +21,11 @@ Navigate to your project folder and run the following command:
 ```
 npm init playwright@latest
 ```
-  
+Select JavaScript when prompted for language, test folder for the location of end-to-end tests, and say no to GitHuib Action workflow.
+Choose true for Install Playwright browser.
+
+## Run Test
+Navigate to the project root folder and enter the following command:
+```
+npx .\playwright test --headed
+```
