@@ -1,4 +1,5 @@
 # Install Playwright
+To follow the tutorial ensure Node.js and Visual Studio Code and Playwright are downloaded.
 
 ## Install Node.js
 Node.js is a cross-platform, open-source JavaScript runtime environment that can run on Windows, Linux, Unix, macOS, and more. 
