@@ -1,31 +1,43 @@
-# Install Playwright
-To follow the tutorial ensure Node.js and Visual Studio Code and Playwright are downloaded.
+# Playwright QA Automation Case Study
 
-## Install Node.js
-Node.js is a cross-platform, open-source JavaScript runtime environment that can run on Windows, Linux, Unix, macOS, and more. 
-Node.js runs on the V8 JavaScript engine, and executes JavaScript code outside a web browser. 
-Node.js lets developers use JavaScript to write command line tools and for server-side scripting. <br>
-[https://nodejs.org/en](https://nodejs.org/en)
+This repository was created as part of a **take-home interview assignment** for a QA role, but more importantly, as a personal learning project to explore **QA testing**, **web automation**, and how tools like **Selenium** and **Playwright** operate in real-world scenarios.
 
-## Install Visual Studio Code:
-Visual Studio Code, also commonly referred to as VS Code, is an integrated development environment developed by Microsoft for Windows, Linux, macOS and web browsers.<br>
-[https://code.visualstudio.com/](https://code.visualstudio.com/)
+While Selenium is a popular automation tool, I chose to leverage **Playwright** due to its modern API and ease of setup — but the core concepts are transferable between both tools. This repo serves as a case study for anyone looking to understand automated browser testing and web scraping fundamentals.
 
-## Install Playwright
-Playwright is an open-source automation library for browser testing and web scraping developed by Microsoft and launched on 31 January 2020, which has since become popular among programmers and web developers. 
-Playwright provides the ability to automate browser tasks in Chromium, Firefox and WebKit with a single API. <br>
-[https://playwright.dev/](https://playwright.dev/) - installation and documentation <br>
-[https://github.com/microsoft/playwright](https://github.com/microsoft/playwright) - github repository
+---
 
-Navigate to your project folder and run the following command:
-```
+## 🚀 Project Overview
+
+The goal of this project is to:
+- Use **Playwright** to automate the extraction of the latest **100 articles** from the [YCombinator Hacker News](https://news.ycombinator.com/) website.
+- Overcome the pagination limitation where only **30 articles** are displayed per page.
+- Demonstrate efficient, reliable scraping techniques within a QA automation framework.
+
+This solution simulates what you'd typically build using Selenium, showcasing how automated browser tasks can be structured for both **testing** and **data extraction** purposes.
+
+🎥 **Walkthrough Video:**  
+[Watch on Loom](https://www.loom.com/share/be90f9920f64430dba7ef0fbd4b73771)
+
+---
+
+## 🛠️ Prerequisites
+
+Ensure the following are installed on your machine:
+
+### 1. [Node.js](https://nodejs.org/en)
+Node.js is a JavaScript runtime that allows you to run JavaScript outside the browser — essential for running Playwright scripts.
+
+### 2. [Visual Studio Code](https://code.visualstudio.com/)
+A lightweight, versatile IDE to develop and run your automation scripts.
+
+### 3. [Playwright](https://playwright.dev/)
+An open-source automation library for browser testing and scraping, supporting Chromium, Firefox, and WebKit.
+
+---
+
+## ⚡ Installation
+
+Navigate to your project folder and initialize Playwright:
+
+```bash
 npm init playwright@latest
-```
-Select JavaScript when prompted for language, test folder for the location of end-to-end tests, and say no to GitHuib Action workflow.
-Choose true for Install Playwright browser.
-
-## Run Test
-Navigate to the project root folder and enter the following command:
-```
-npx playwright test --headed
-```
