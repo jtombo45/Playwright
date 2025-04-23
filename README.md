@@ -41,3 +41,27 @@ Navigate to your project folder and initialize Playwright:
 
 ```bash
 npm init playwright@latest
+```
+
+## ▶️ Running the Scraper
+
+To execute the automation and watch it interact with the browser:
+
+```bash
+npx playwright test --headed
+```
+The --headed flag allows you to see the browser in action as Playwright navigates pages and extracts article data.
+
+## 📚 Why This Repo Exists
+- ✅ To learn and apply QA automation principles inspired by Selenium workflows.
+- ✅ To explore browser automation for both testing and scraping purposes.
+- ✅ To document a real-world challenge (pagination handling, dynamic content extraction).
+- ✅ For others interested in understanding how tools like Selenium & Playwright can automate repetitive browser tasks.
+
+Feel free to fork this repo and adapt it for your own QA or scraping needs!
+
+## 🔗 Links
+- GitHub Repo: Playwright QA Automation
+- Playwright Docs: https://playwright.dev/
+- Selenium Reference: https://www.selenium.dev/
+- YCombinator Hacker News: https://news.ycombinator.com/
